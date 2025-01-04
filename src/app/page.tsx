@@ -39,20 +39,18 @@ export default function Home() {
               href
             />
             <DesktopShortcut
-              name={"CV"}
-              link={"filename"}
-              logo="cv"
-              setCurrentContent={() => {
-                setCurrentContent(7);
-              }}
-            />
-            <DesktopShortcut
               name={"My Page"}
               link={"frontpage"}
               logo="web"
               setCurrentContent={() => {
                 setCurrentContent(2);
               }}
+            />
+            <DesktopShortcut
+              name={"Other Portfolio (under construction)"}
+              link={"https://rosyfi.github.io/mywebsite/"}
+              logo="web"
+              href
             />
           </div>
           <div className="chatShortcutContainer">
