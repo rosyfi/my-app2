@@ -32,12 +32,22 @@ export default function Home() {
               logo="linkedIn"
               href
             />
-            <DesktopShortcut
-              name={"GitHub"}
-              link={"https://github.com/rosyfi"}
-              logo="github"
-              href
-            />
+            <div className={styles.test}>
+              <DesktopShortcut
+                name={"GitHub"}
+                link={"https://github.com/rosyfi"}
+                logo="github"
+                href
+              />
+              <DesktopShortcut
+                name={"Figma"}
+                link={
+                  "https://www.figma.com/design/mXMsgA0dVKrqRC43OmeFke/Ideas?node-id=96-598"
+                }
+                logo="figma"
+                href
+              />
+            </div>
             <DesktopShortcut
               name={"My Page"}
               link={"frontpage"}
