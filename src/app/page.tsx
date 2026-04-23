@@ -42,7 +42,7 @@ export default function Home() {
               <DesktopShortcut
                 name={"Figma"}
                 link={
-                  "https://www.figma.com/design/mXMsgA0dVKrqRC43OmeFke/Ideas?node-id=96-598"
+                  "https://www.figma.com/design/mXMsgA0dVKrqRC43OmeFke/Ideas?node-id=96-598&t=VVR9Mvm0mqcgttzL-1"
                 }
                 logo="figma"
                 href
