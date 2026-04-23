@@ -40,7 +40,7 @@ export default function Home() {
                 href
               />
               <DesktopShortcut
-                name={"Figma (some Ideas)"}
+                name={"Figma\n(some Ideas)"}
                 link={
                   "https://www.figma.com/design/mXMsgA0dVKrqRC43OmeFke/Ideas?node-id=96-598&t=VVR9Mvm0mqcgttzL-1"
                 }
@@ -57,7 +57,7 @@ export default function Home() {
               }}
             />
             <DesktopShortcut
-              name={"Other Website (not fully done but have a look :))"}
+              name={"Other Website\n(not fully done but have a look :))"}
               link={"https://rosyfi.github.io/mywebsite/"}
               logo="web"
               href

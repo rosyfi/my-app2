@@ -19,7 +19,11 @@ const DesktopShortcut: React.FC<DesktopShortcutProp> = ({
   return (
     <>
       {(href && (
-        <a href={link} target="_blank">
+        <a
+          href={link}
+          target="_blank"
+          style={{ whiteSpace: "pre-line", textAlign: "center" }}
+        >
           <div className={styles.container}>
             <Image
               width={"100"}
