@@ -117,15 +117,6 @@ const ChatContent: React.FC = () => {
 
   return (
     <div className={`container ${styles.container}`}>
-      <div className={styles.imageWrapper}>
-        <Image
-          width={"200"}
-          height={"200"}
-          className={styles.image}
-          src="/picture.png"
-          alt="picture"
-        />
-      </div>
       <div className="chatContainer">
         <div className={styles.messageWrapper}>
           {messages

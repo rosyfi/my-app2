@@ -39,19 +39,6 @@
   outline: 2px solid rgb(40, 54, 24, 0.5);
 }
 
-.imageWrapper {
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
-}
-
-.image {
-  position: relative;
-  width: 200px;
-  border: 1px black solid;
-  border-radius: 50%;
-}
-
 .gif {
   width: 100px;
 }
