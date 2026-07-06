@@ -32,9 +32,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Replace '"/' with '"/portfolio/' in files
+      - name: Replace '"/' with '"/${{ github.event.repository.name }}/' in files
         run: |
-          find ./src/app -type f -exec sed -i 's|"/|"/portfolio/|g' {} +
+          find ./src/app -type f -exec sed -i 's|"/|"/${{ github.event.repository.name }}/|g' {} +
 
       - name: Install tree and print /src/app directory structure
         run: |
@@ -46,8 +46,8 @@ jobs:
           echo '/** @type {import("next").NextConfig} */' > next.config.mjs
           echo 'const nextConfig = {' >> next.config.mjs
           echo '    output: "export",' >> next.config.mjs
-          echo '    basePath: "/portfolio",' >> next.config.mjs
-          echo '    assetPrefix: "/portfolio/",' >> next.config.mjs
+          echo '    basePath: "/${{ github.event.repository.name }}",' >> next.config.mjs
+          echo '    assetPrefix: "/${{ github.event.repository.name }}/",' >> next.config.mjs
           echo '};' >> next.config.mjs
           echo '' >> next.config.mjs
           echo 'export default nextConfig;' >> next.config.mjs
