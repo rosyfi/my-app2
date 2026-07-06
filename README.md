@@ -1,4 +1,4 @@
-# My Portfolio 🚀
+# My Resume 🚀
 
 Hey there! 👋
 
@@ -10,7 +10,7 @@ Feel free to click around, explore, and have fun looking at it. If you have any 
 
 Thanks for stopping by, and enjoy! 😄
 
-PS: You can check it out here too: https://rosyfi.github.io/portfolio/
+PS: You can check it out here too: https://rosyfi.github.io/resume/
 
 ---
 
